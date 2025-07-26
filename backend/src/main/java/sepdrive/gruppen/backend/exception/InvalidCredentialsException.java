@@ -1,0 +1,8 @@
+package sepdrive.gruppen.backend.exception;
+
+public class InvalidCredentialsException extends RuntimeException {
+    public InvalidCredentialsException(String message)
+    {
+        super(message);
+    }
+}
